@@ -1,0 +1,15 @@
+backend:
+  name: gitea
+  repo: stefan/surge-test
+  app_id: 272d510d-a89d-49fa-a2e0-41f4177e0070
+  app_root: https://git.chobble.com/api/v1
+  base_url: https://git.chobble.com
+  auth_endpoint: https://git.chobble.com/login/oauth/authorize
+  branch: main
+media_folder: 'assets/uploads'
+collections:
+  - name: 'blog'
+    label: 'Blog'
+    folder: '_posts/'
+    fields:
+      - { name: Title }
