@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: chobble-mirror/surge-test
+  name: git-gateway
   branch: main
 media_folder: 'assets/uploads'
 collections:
