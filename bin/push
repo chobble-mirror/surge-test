@@ -1,1 +1,1 @@
-surge _site
+surge --domain chobble-surge-test.surge.sh _site
