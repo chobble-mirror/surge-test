@@ -1,10 +1,6 @@
 backend:
-  name: gitea
-  repo: stefan/surge-test
-  app_id: 78098e47-4068-4550-a312-964d7415bd25
-  api_root: https://git.chobble.com/api/v1
-  base_url: https://git.chobble.com
-  auth_endpoint: https://git.chobble.com/login/oauth/authorize
+  name: github
+  repo: chobble-mirror/surge-test
   branch: main
 media_folder: 'assets/uploads'
 collections:
